@@ -1,0 +1,171 @@
+body {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+}
+
+.hero-area {
+    display: flex;
+}
+
+.hero-area-left {
+    margin-top: 50px;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.half-width h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: -40px;
+}
+
+.half-width p {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: rgb(182, 180, 180);
+    font-size: 22px;
+}
+
+.about-area {
+    display: flex;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.half-width a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 25px;
+    background-image: linear-gradient(orange, tomato);
+    color:rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.about-area {
+    background-image: url(shapes/7.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 70px 70px 0px 70px;
+}
+
+.about {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.about img {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.about a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 25px;
+    background-image: linear-gradient(orange, tomato);
+    color:rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.about p {
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: rgb(71, 68, 68);
+}
+
+.banner-area h2 {
+    text-align: center;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-box {
+    display: flex;
+    padding: 50px;
+}
+
+.banner {
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px 10px lightgrey;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.banner p {
+    color: rgb(145, 143, 143);
+}
+
+.banner h3,
+.banner p {
+    text-align: left;
+}
+
+.subscribe-area {
+    margin-bottom: 50px;
+}
+
+.subscribe-box {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px lightgrey;
+    padding: 20px;
+}
+
+.subscribe {
+    width: 33%;
+    margin: auto;
+    text-align: center;
+}
+
+.subscribe h2 {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.subscribe h6 {
+    color: rgb(131, 130, 130);
+}
+
+footer {
+    background-color: rgb(28, 10, 36);
+    padding: 50px;
+    text-align: center;
+}
+
+footer h2 {
+    color: rgb(131, 130, 130);
+}
+
+footer>p {
+    color:rgba(165, 164, 164, 0.445);
+    font-weight: 500;
+    font-size: 14px;
+}
